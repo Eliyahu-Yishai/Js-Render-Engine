@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Render Engine</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script type="module" src="/js/index.js"></script>
+</head>
+<body>
+    <div>
+        <h1>student list</h1>
+        <button id="loadList">Show student list</button>
+        <ul id="myList"></ul>
+    </div>
+
+    </br>
+
+    <div style="display: none;" id="template_student">
+        <li>
+            <label class="bla1 bla2">name: </label><span>[name]</span><br>
+            <label>age: </label><span row-type="integer">[age]</span><br>
+            <label>class: </label><span>[class]</span><br>
+        </li>
+    </div>
+</body>
+</html>
