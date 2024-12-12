@@ -32,6 +32,7 @@ function handleClickLoadList() {
     }
 
     try {
+        // render the list
         listContainer.innerHTML = render(template, DATA_LIST_ID);
     } catch (error) {
         console.error('Error rendering list:', error);
